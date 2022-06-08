@@ -1,0 +1,289 @@
+{
+	"id": "34641381-2b46-4f3d-a655-f666c255867f",
+	"name": "Books",
+	"timestamp": "2022-06-08T15:15:17.116Z",
+	"collection_id": "20571494-32b03e53-bac6-4fe9-be79-9382399aeca8",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 16,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "08b4de14-e9d8-467a-aed0-4fa285a186a9",
+			"name": "All books",
+			"url": "http://localhost:3000/books",
+			"time": 37,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": true,
+				"Check title": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check title": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				37
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true,
+					"Check title": true
+				}
+			]
+		},
+		{
+			"id": "2710de06-adc4-455a-9e52-69f45fbb718b",
+			"name": "Specific title",
+			"url": "http://localhost:3000/books/?title=Diuna",
+			"time": 18,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": true,
+				"Status code is 200": true,
+				"Specific title": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Specific title": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				18
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true,
+					"Status code is 200": true,
+					"Specific title": true
+				}
+			]
+		},
+		{
+			"id": "263f8db6-8756-4fa4-8db8-3a1d6b0aff91",
+			"name": "Add new book/Title check",
+			"url": "http://localhost:3000/books",
+			"time": 29,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Response time is less than 200ms": true,
+				"Title check": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Title check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				29
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true,
+					"Title check": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "7dc5626a-17f5-40de-b94e-c4cdfa8a1790",
+			"name": "New Title",
+			"url": "http://localhost:3000/books/6",
+			"time": 31,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				31
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ec8e77a8-f9e6-47e6-ab85-1e10407e9ffd",
+			"name": "Specific author",
+			"url": "http://localhost:3000/books/?author=Vladimir%20Wolff",
+			"time": 34,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": true,
+				"Include author": true,
+				"Specific author": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Include author": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Specific author": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				34
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true,
+					"Include author": true,
+					"Specific author": true
+				}
+			]
+		},
+		{
+			"id": "26a33118-cacd-44b9-9cb2-a40d4b2eb862",
+			"name": "Added Book",
+			"url": "http://localhost:3000/books/7",
+			"time": 30,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				30
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "d974244a-2449-436c-b976-12282677ef8b",
+			"name": "New Title",
+			"url": "http://localhost:3000/books/6",
+			"time": 32,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": true,
+				"Check new title": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check new title": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true,
+					"Check new title": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 211,
+	"collection": {
+		"requests": [
+			{
+				"id": "08b4de14-e9d8-467a-aed0-4fa285a186a9",
+				"method": "GET"
+			},
+			{
+				"id": "2710de06-adc4-455a-9e52-69f45fbb718b",
+				"method": "GET"
+			},
+			{
+				"id": "263f8db6-8756-4fa4-8db8-3a1d6b0aff91",
+				"method": "POST"
+			},
+			{
+				"id": "7dc5626a-17f5-40de-b94e-c4cdfa8a1790",
+				"method": "PUT"
+			},
+			{
+				"id": "ec8e77a8-f9e6-47e6-ab85-1e10407e9ffd",
+				"method": "GET"
+			},
+			{
+				"id": "26a33118-cacd-44b9-9cb2-a40d4b2eb862",
+				"method": "DELETE"
+			},
+			{
+				"id": "d974244a-2449-436c-b976-12282677ef8b",
+				"method": "PATCH"
+			}
+		]
+	}
+}

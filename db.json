@@ -1,0 +1,44 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Mitologia",
+      "author": "Jan Parandowski"
+    },
+    {
+      "id": 2,
+      "title": "Diuna",
+      "author": "Herbert Frank"
+    },
+    {
+      "id": 3,
+      "title": "Miecz Przeznaczenia",
+      "author": "Andrzej Sapkowski"
+    },
+    {
+      "id": 4,
+      "title": "Zawód Tester",
+      "author": "Radosław Smiglin"
+    },
+    {
+      "id": 5,
+      "title": "Nadchodzi III Wojna Światowa",
+      "author": "Jacek Bartosiak Piotr Zychowicz"
+    },
+    {
+      "id": 6,
+      "title": "Tygrys i Smok",
+      "author": "Vladimir Wolff"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
